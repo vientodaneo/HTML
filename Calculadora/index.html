@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <section>
+        <header id="cabecera"> 
+            Calculadora Básica
+        </header>
+
+        <section id="cuerpo">
+
+            <!-- Entradas -->
+            <textarea id="txtNum1_id" rows="1" cols="10"></textarea>
+            <textarea id="txtNum2_id" rows="1" cols="10"></textarea>
+
+            <!-- Botones de operaciones -->
+            <div id="botones">
+                <button onclick="suma()">+</button>
+                <button onclick="resta()">−</button>
+                <button onclick="multiplicacion()">×</button>
+                <button onclick="division()">÷</button>
+            </div>
+
+            <!-- Resultado -->
+            <textarea id="txtResultado_id" rows="1" cols="10" readonly></textarea>
+
+        </section>
+    </section>
+
+    <footer>
+        <input type="button" value="Limpiar" onclick="limpiar()">
+    </footer>
+
+    <!-- Script correctamente cargado -->
+    <script src="script.js"></script>
+
+</body>
+</html>
