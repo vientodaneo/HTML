@@ -45,7 +45,78 @@ section {
 }
 
 /* Inputs de números */
+#cuerpo textarea {
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s;
+}
 
+#cuerpo textarea:focus {
+    border-color: #4cacaf;
+    outline: none;
+}
+
+/* -------------------------------------- */
+/* BOTONES DE OPERACIONES                 */
+/* -------------------------------------- */
+#botones {
+    display: flex;
+    gap: 12px;
+}
+
+#botones button {
+    background-color: #4cacaf;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    font-size: 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+#botones button:hover {
+    background-color: #4565a0;
+    transform: translateY(-2px);
+}
+
+/* -------------------------------------- */
+/* RESULTADO                              */
+/* -------------------------------------- */
+#txtResultado_id {
+    background-color: #f7f7f7;
+    border: 2px solid #bbb;
+    font-weight: bold;
+}
+
+/* -------------------------------------- */
+/* FOOTER                                 */
+/* -------------------------------------- */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer input[type="button"] {
+    background-color: #4cacaf;
+    color: white;
+    padding: 12px 28px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+footer input[type="button"]:hover {
     background-color: #4565a0;
     transform: translateY(-2px);
 }

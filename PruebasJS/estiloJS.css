@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; background: #eee; }
+
+.caja {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border: 4px solid #3366cc;
+    margin: 40px auto;
+}
+
+.otra {
+    width: 300px;
+    background: #ffd966;
+    padding: 10px 30px;
+    border: 2px dashed #cc6600;
+    margin: 0 auto;
+}
